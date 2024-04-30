@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "glows-flair-apps"
+version = "0.1.0"
+description = "A repository containing the flair/addon apps used in Glow's Battlegrounds Hell Let Loose servers."
+authors = ["Robb Manes <robbmanes@protonmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "glows_flair_apps"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
